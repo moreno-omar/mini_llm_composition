@@ -1,0 +1,41 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+.venv/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+
+.env
+.idea/
+.github/
+.pytest_cache/
+.DS_Store
+__pycache__/
+
+.vscode
+local_settings.py
+
+# this project: large generated artefacts, never commit these
+data/
+checkpoints/
+
+db.sqlite3
+db.sqlite3-journal
+
+freeform.md
+
+docs/
+media
+mediafiles
+staticfiles
+# */migrations/00*
+
+local_settings.py
+
+general.log
+celerybeat-schedule
+azure-pipelines.yml
